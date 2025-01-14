@@ -59,6 +59,15 @@ Below is a **six-step** design recipe you should apply when developing your prog
 2. **Announce a winner** if they complete a row, column, or diagonal with the same mark.  
 3. **Stop the game** as soon as a winner emerges (or if all spaces are filled).  
 4. **Use `prompt-sync`** to interact with players in the terminal.  
+5. **Display the board** in a clear, text-based format, for example:
+   ```
+   X| | 
+   ------
+    |X| 
+   ------
+    | | 
+   ```
+   This kind of ASCII representation helps players see the current state of the board and which moves have been made.
 
 ---
 
@@ -100,4 +109,4 @@ Provide a short **README** explaining:
 
 Your work will be assessed on **clarity**, **correctness**, **use of the design recipe**, and **thorough testing**.  
 
-**Good luck, and have fun building and testing your Tic Tac Toe game!**# Tic-Tac-Toe-Assignment
+**Good luck, and have fun building and testing your Tic Tac Toe game!**
