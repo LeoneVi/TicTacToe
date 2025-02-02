@@ -151,4 +151,6 @@ class Board{
 } // end of Board
 
 
-module.exports = Board;
+//module.exports = Board;
+
+export { Board };
